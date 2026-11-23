@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sky3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="60%" stop-color="#0e172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Night Sky -->
+  <rect width="800" height="500" fill="url(#sky3)"/>
+
+  <!-- Stars -->
+  <circle cx="120" cy="60" r="1.5" fill="#ffffff" opacity="0.8"/>
+  <circle cx="280" cy="40" r="2" fill="#ffffff" opacity="0.9"/>
+  <circle cx="480" cy="80" r="1.5" fill="#ffffff" opacity="0.7"/>
+  <circle cx="650" cy="50" r="2" fill="#ffffff" opacity="0.9"/>
+  <circle cx="720" cy="110" r="1.5" fill="#ffffff" opacity="0.8"/>
+
+  <!-- Manhattan Skyline Backdrop -->
+  <rect x="50" y="160" width="70" height="340" fill="#111827"/>
+  <rect x="140" y="220" width="85" height="280" fill="#1e293b"/>
+  <rect x="245" y="140" width="90" height="360" fill="#0f172a"/>
+  <!-- Spire Tower -->
+  <polygon points="290,60 288,140 292,140" fill="#cbd5e1"/>
+  
+  <rect x="560" y="180" width="80" height="320" fill="#1e293b"/>
+  <rect x="660" y="240" width="95" height="260" fill="#111827"/>
+
+  <!-- Main Hero Penthouse Tower -->
+  <rect x="360" y="90" width="180" height="410" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Glowing Glass Windows Grid -->
+  <g fill="#fef08a" opacity="0.85">
+    <rect x="380" y="110" width="20" height="12" rx="1"/>
+    <rect x="410" y="110" width="20" height="12" rx="1"/>
+    <rect x="440" y="110" width="20" height="12" rx="1"/>
+    <rect x="470" y="110" width="20" height="12" rx="1"/>
+    <rect x="500" y="110" width="20" height="12" rx="1"/>
+
+    <rect x="380" y="135" width="20" height="12" rx="1"/>
+    <rect x="440" y="135" width="20" height="12" rx="1"/>
+    <rect x="470" y="135" width="20" height="12" rx="1"/>
+    <rect x="500" y="135" width="20" height="12" rx="1"/>
+
+    <rect x="380" y="160" width="20" height="12" rx="1"/>
+    <rect x="410" y="160" width="20" height="12" rx="1"/>
+    <rect x="470" y="160" width="20" height="12" rx="1"/>
+    
+    <rect x="410" y="185" width="20" height="12" rx="1"/>
+    <rect x="440" y="185" width="20" height="12" rx="1"/>
+    <rect x="500" y="185" width="20" height="12" rx="1"/>
+
+    <!-- Additional floors -->
+    <rect x="380" y="220" width="20" height="12" rx="1"/>
+    <rect x="410" y="220" width="20" height="12" rx="1"/>
+    <rect x="440" y="220" width="20" height="12" rx="1"/>
+    <rect x="470" y="220" width="20" height="12" rx="1"/>
+    <rect x="500" y="220" width="20" height="12" rx="1"/>
+
+    <rect x="380" y="250" width="20" height="12" rx="1"/>
+    <rect x="440" y="250" width="20" height="12" rx="1"/>
+    <rect x="500" y="250" width="20" height="12" rx="1"/>
+  </g>
+
+  <!-- Luxury Rooftop Penthouse Terrace -->
+  <rect x="350" y="80" width="200" height="10" fill="#e2e8f0"/>
+  <rect x="390" y="55" width="120" height="25" fill="#38bdf8" opacity="0.3"/>
+  <text x="450" y="72" font-family="sans-serif" font-size="12" fill="#38bdf8" text-anchor="middle">ROOFTOP LOUNGE</text>
+
+  <!-- Central Park Canopy at Base -->
+  <path d="M 0 460 Q 200 440 400 455 Q 600 440 800 460 L 800 500 L 0 500 Z" fill="#14532d"/>
+
+  <!-- Watermark Badge -->
+  <rect x="40" y="40" width="270" height="48" rx="8" fill="#000000" fill-opacity="0.45"/>
+  <text x="60" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="600" fill="#ffffff" letter-spacing="1.5">MANHATTAN, NYC</text>
+</svg>

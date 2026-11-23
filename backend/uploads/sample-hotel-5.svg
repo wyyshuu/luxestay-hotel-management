@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sky5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#143628"/>
+      <stop offset="50%" stop-color="#2a5f45"/>
+      <stop offset="100%" stop-color="#73a669"/>
+    </linearGradient>
+    <linearGradient id="mist" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f5853"/>
+      <stop offset="100%" stop-color="#0e3734"/>
+    </linearGradient>
+    <linearGradient id="bamboo" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a67c52"/>
+      <stop offset="50%" stop-color="#c9a779"/>
+      <stop offset="100%" stop-color="#8c643e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky / Jungle Canopy Background -->
+  <rect width="800" height="350" fill="url(#sky5)"/>
+
+  <!-- Morning Sunrise Glow -->
+  <circle cx="200" cy="140" r="120" fill="#fff3c4" opacity="0.3"/>
+  <circle cx="200" cy="140" r="60" fill="#ffeaa7" opacity="0.6"/>
+
+  <!-- Mountain Silhouettes -->
+  <path d="M 0 260 Q 150 160 300 240 T 600 210 T 800 250 L 800 500 L 0 500 Z" fill="#1b4332"/>
+  <path d="M 0 290 Q 200 220 420 300 T 800 280 L 800 500 L 0 500 Z" fill="#143b2a"/>
+
+  <!-- River Valley -->
+  <path d="M 100 500 Q 300 380 500 420 T 800 480 L 800 500 Z" fill="url(#river)"/>
+
+  <!-- Morning Mist Layer -->
+  <rect x="0" y="270" width="800" height="50" fill="url(#mist)"/>
+
+  <!-- Rainforest Eco Lodge Pavilion Structure -->
+  <!-- Stilt Pillars -->
+  <rect x="260" y="280" width="14" height="130" fill="url(#bamboo)" rx="3"/>
+  <rect x="330" y="290" width="14" height="120" fill="url(#bamboo)" rx="3"/>
+  <rect x="470" y="290" width="14" height="120" fill="url(#bamboo)" rx="3"/>
+  <rect x="540" y="280" width="14" height="130" fill="url(#bamboo)" rx="3"/>
+
+  <!-- Wooden Deck Platform -->
+  <polygon points="220,300 580,300 560,320 240,320" fill="#6d4c41"/>
+  <rect x="230" y="318" width="340" height="12" fill="#5d4037" rx="2"/>
+
+  <!-- Open Pavilion Walls & Glass -->
+  <rect x="280" y="220" width="240" height="80" fill="#e8f5e9" opacity="0.85" rx="4"/>
+  <rect x="300" y="235" width="45" height="65" fill="#c8e6c9" rx="3"/>
+  <rect x="360" y="235" width="80" height="65" fill="#c8e6c9" rx="3"/>
+  <rect x="455" y="235" width="45" height="65" fill="#c8e6c9" rx="3"/>
+
+  <!-- Thatched Curved Bamboo Roof (Balinese Architecture) -->
+  <path d="M 200 230 Q 400 130 600 230 Q 400 185 200 230 Z" fill="#8d6e63"/>
+  <path d="M 215 228 Q 400 145 585 228" stroke="#a1887f" stroke-width="4" fill="none"/>
+  <path d="M 230 220 Q 400 160 570 220" stroke="#d7ccc8" stroke-width="2" fill="none"/>
+
+  <!-- Warm Glowing Lamps Inside Pavilion -->
+  <circle cx="322" cy="255" r="7" fill="#ffe082"/>
+  <circle cx="400" cy="250" r="9" fill="#ffe082"/>
+  <circle cx="478" cy="255" r="7" fill="#ffe082"/>
+
+  <!-- Tropical Palm & Fern Foliage Overlays -->
+  <path d="M 40 500 Q 80 340 160 330 Q 110 390 120 500 Z" fill="#2d6a4f"/>
+  <path d="M 0 460 Q 60 380 130 400 Q 80 440 60 500 Z" fill="#40916c"/>
+  <path d="M 680 500 Q 720 350 780 340 Q 750 420 740 500 Z" fill="#2d6a4f"/>
+  <path d="M 720 500 Q 750 390 800 410 L 800 500 Z" fill="#52b788"/>
+
+  <!-- Foreground Terrace Railing -->
+  <line x1="230" y1="290" x2="570" y2="290" stroke="#d7ccc8" stroke-width="3"/>
+  <line x1="230" y1="282" x2="570" y2="282" stroke="#d7ccc8" stroke-width="2"/>
+</svg>

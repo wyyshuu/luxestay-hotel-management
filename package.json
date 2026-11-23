@@ -1,0 +1,22 @@
+{
+  "name": "hotel-management-app",
+  "version": "1.0.0",
+  "description": "Production-grade Hotel Management CRUD Single Page Application",
+  "private": true,
+  "scripts": {
+    "start:backend": "npm --prefix backend start",
+    "start:frontend": "npm --prefix frontend dev",
+    "build:frontend": "npm --prefix frontend build",
+    "test:backend": "npm --prefix backend test"
+  },
+  "keywords": [
+    "react",
+    "redux-toolkit",
+    "express",
+    "postgresql",
+    "crud",
+    "hotel-management"
+  ],
+  "author": "",
+  "license": "MIT"
+}

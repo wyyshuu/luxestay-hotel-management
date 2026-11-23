@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sky1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f2b48"/>
+      <stop offset="60%" stop-color="#24608c"/>
+      <stop offset="100%" stop-color="#f8a555"/>
+    </linearGradient>
+    <linearGradient id="sea1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1976d2"/>
+      <stop offset="100%" stop-color="#093761"/>
+    </linearGradient>
+    <linearGradient id="palace" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#fbf4e8"/>
+      <stop offset="100%" stop-color="#eedbc5"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="320" fill="url(#sky1)"/>
+  
+  <!-- Glowing Sun -->
+  <circle cx="580" cy="190" r="48" fill="#ffeedd" opacity="0.9"/>
+  <circle cx="580" cy="190" r="75" fill="#f8a555" opacity="0.3"/>
+
+  <!-- Sea -->
+  <rect y="310" width="800" height="190" fill="url(#sea1)"/>
+
+  <!-- Luxury Palace Facade -->
+  <g filter="url(#shadow)">
+    <rect x="180" y="210" width="440" height="150" fill="url(#palace)" rx="6"/>
+    <!-- Central Portico & Dome -->
+    <path d="M 330 210 Q 400 130 470 210 Z" fill="#eedbc5"/>
+    <circle cx="400" cy="130" r="10" fill="#d4af37"/>
+    <!-- Columns -->
+    <rect x="220" y="240" width="22" height="110" fill="#ffffff" rx="3"/>
+    <rect x="270" y="240" width="22" height="110" fill="#ffffff" rx="3"/>
+    <rect x="320" y="240" width="22" height="110" fill="#ffffff" rx="3"/>
+    <rect x="458" y="240" width="22" height="110" fill="#ffffff" rx="3"/>
+    <rect x="508" y="240" width="22" height="110" fill="#ffffff" rx="3"/>
+    <rect x="558" y="240" width="22" height="110" fill="#ffffff" rx="3"/>
+    <!-- Windows and Balconies -->
+    <rect x="375" y="235" width="50" height="70" rx="25" fill="#0f2b48"/>
+    <path d="M 365 305 L 435 305" stroke="#d4af37" stroke-width="4"/>
+  </g>
+
+  <!-- Infinity Pool & Promenade -->
+  <rect x="140" y="345" width="520" height="55" fill="#38bdf8" rx="8" opacity="0.85"/>
+  <rect x="120" y="380" width="560" height="30" fill="#e2e8f0"/>
+
+  <!-- Palm Silhouette Left -->
+  <path d="M 90 440 Q 110 320 80 230" stroke="#1e293b" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M 80 230 Q 30 200 10 240 M 80 230 Q 50 170 30 180 M 80 230 Q 100 160 140 180 M 80 230 Q 140 210 160 250" stroke="#1e293b" stroke-width="6" fill="none"/>
+
+  <!-- Palm Silhouette Right -->
+  <path d="M 720 440 Q 700 330 730 220" stroke="#1e293b" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M 730 220 Q 670 190 650 230 M 730 220 Q 710 150 680 170 M 730 220 Q 760 150 790 180 M 730 220 Q 800 200 820 240" stroke="#1e293b" stroke-width="6" fill="none"/>
+
+  <!-- Hotel Title Watermark Badge -->
+  <rect x="40" y="40" width="260" height="48" rx="8" fill="#000000" fill-opacity="0.45"/>
+  <text x="60" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="600" fill="#ffffff" letter-spacing="1.5">FRENCH RIVIERA</text>
+</svg>

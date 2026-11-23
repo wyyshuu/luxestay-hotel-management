@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+*/node_modules/
+package-lock.json
+frontend/package-lock.json
+backend/package-lock.json
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+backend/.env
+!backend/.env.example
+
+# Production Builds & Bundler Caches
+dist/
+*/dist/
+build/
+*/build/
+.vite/
+*/.vite/
+
+# System and Editor Files
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode/
+.idea/
+
+# Backend Uploads
+# Ignore all dynamically uploaded files, preserve .gitkeep and seeded sample demo assets
+backend/uploads/*
+!backend/uploads/.gitkeep
+!backend/uploads/sample-hotel-*.svg
