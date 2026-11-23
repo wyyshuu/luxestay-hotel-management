@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
+const fs = require('fs');
 const multer = require('multer');
 require('dotenv').config();
 
@@ -9,6 +10,12 @@ const hotelRoutes = require('./routes/hotelRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+
+// Ensure uploads directory exists on startup (prevents ENOENT on fresh clones)
+const uploadsDir = path.join(__dirname, 'uploads');
+if (!fs.existsSync(uploadsDir)) {
+  fs.mkdirSync(uploadsDir, { recursive: true });
+}
 
 // Enable Cross-Origin Resource Sharing
 app.use(cors({
@@ -22,7 +29,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Serve uploaded images statically
-app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+app.use('/uploads', express.static(uploadsDir));
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {
